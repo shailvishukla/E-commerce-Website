@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.backImg {
+background: url("https://mdbootstrap.com/img/Photos/Others/img (50).jpg")no-repeat center center;
+background-size: cover;
+height: 170vh;
+}
+
+#divElement {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -160px;
+  z-index: 100;
+  display: none;
+}
+/* html,
+body,
+header,
+.view {
+height: 100%;
+} */
+
+/* .space{
+  margin-top: 200px;
+} */
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.flex-prop {
+  margin: 0px auto 20px 0px;
+  flex-basis: 30%;
+}
+
+.space {
+  height: 220px;
+}
+
+.cpad{
+  margin: 16px 10px 16px 0px;
+}
+
+.backGround {
+  background-color: rgba(0, 0, 0, 0.6);
+}
